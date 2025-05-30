@@ -673,7 +673,7 @@
             try {
                 // IMPORTANT: Replace 'YOUR_EMAILJS_SERVICE_ID' and 'YOUR_EMAILJS_TEMPLATE_ID' with your actual EmailJS IDs
                 await emailjs.send('service_44s0hzy', 'template_68q3qa4', templateParams);
-                showModal('Éxito', 'La rúbrica ha sido enviada correctamente.');
+                showModal('Éxito', 'La rúbrica ha sido enviada correctamente. Una copia ha sido enviada al correo proporcionado.');
                 form.reset(); // Clear the form after successful submission
                 calculateScore(); // Reset score display
                 form.classList.remove('was-validated'); // Remove validation styles
